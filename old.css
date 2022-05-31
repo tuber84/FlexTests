@@ -1,0 +1,271 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  background-color: rgb(191, 191, 191);
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.hi {
+  background-color: rgb(28, 36, 57);
+  padding: 50px;
+}
+
+.hi__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hi__body {
+  color: white;
+  padding: 0px 15px 0px 0px;
+}
+
+.hi__title {
+  font-size: 60px;
+  text-shadow: 1px 1px 15 black;
+  margin: 0px 0px 38px 0px;
+}
+
+.hi__image {
+  flex: 0 0 430px;
+}
+
+.hi__image img {
+  max-width: 100%;
+}
+
+.hi__text li {
+  background: url("./icons/icon.png") 0 1px no-repeat;
+  font-size: 20px;
+  line-height: 20px;
+  text-shadow: 1px 1px 15 black;
+  padding: 0px 0px 0px 36px;
+  margin: 0px 0px 15px 0px;
+}
+
+.hi__text li :last-child {
+  margin: 0px;
+}
+
+.footer {
+  background-color: rgb(156, 156, 156);
+}
+
+.footer__row {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  color: rgb(244, 244, 244);
+  font-size: 12px;
+  letter-spacing: 0.3px;
+}
+
+/* -----------what-------------------------------- */
+.what {
+  padding: 50px 0px;
+}
+
+.container {}
+
+.what__row {
+  display: flex;
+}
+
+.what__image {
+  flex: 0 0 430;
+}
+
+.what__image img {
+  max-width: 100%;
+}
+
+.what__body {
+  flex: 1 1 auto;
+  margin: 0px 0px 0px 38px;
+}
+
+.what__title {
+  margin: 0 0 12px 0;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.title {
+  color: rgb(16, 16, 16);
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.what__text p {
+  margin: 0 0 25px 0;
+  color: rgb(11, 11, 11);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ----------colums------------------------------------- */
+
+.columns {
+  background-color: rgb(28, 36, 57);
+  padding: 50px 0 20px 0;
+  */
+}
+
+.container {}
+
+.columns__title {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.columns__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -18px 0 0;
+
+}
+
+.columns_column {
+  padding: 0 18px 0 0;
+  flex: 0 1 50%;
+  margin: 0 0 30px 0;
+}
+
+.columns__item {}
+
+.item {}
+
+.item__row {
+  display: flex;
+}
+.item__image {
+  flex: 0 0 200px;
+}
+.item__image img {
+  max-width: 100%;
+}
+.item__body {
+  flex: 1 1 auto;
+  padding: 0 0 0 15px;
+}
+.item__title {
+  color: rgb(245, 245, 245);
+  margin: 0 0 13px 0;
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+
+}
+.item__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(245, 245, 245);
+  text-align: justify;
+
+}
+.title {
+  color: rgb(245, 245, 245);
+}
+/* ---------vertical column----------------------------- */
+.vertical {
+  padding: 50px 0;
+}
+.container {
+}
+.vertical__title {
+  text-align: center;
+  margin: 0 0 30px 0;
+  color: rgb(28, 36, 57);
+  font-size: 32px ;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.vertical__body {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.vertical__row {
+  display: flex;
+  margin: 0 -23px;
+}
+.vertical__column {
+  flex:0 1 33.33%;
+  padding: 0 23px;
+  display: flex;
+
+}
+.vertical__item {
+  background-color: rgb(28, 36, 57);
+  color: white;
+  border-radius: 8px;
+  border: 2px solid rgb(28, 36, 57);
+  padding: 0 0 20px 0 ;
+  display: flex;
+  flex-direction: column;
+
+}
+.vertical__subtitle {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 12px 0;
+
+  text-align: center;
+  color: rgb(250, 250, 229);
+  
+}
+.vertical__label {
+  background-color: rgb(218, 223, 236);
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+.vertical__text {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  padding: 20px 20px;
+  flex: 1 1 auto;
+}
+
+.vertical__text p{
+  margin: 0 0 15px 0;
+}
+.vertical__text p:last-child{
+  margin: 0;
+}
+.vertical__btn {
+  text-align: center;
+  line-height: 40px;
+  display: block;
+  margin: 0 20px;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: gainsboro;
+}
